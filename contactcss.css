@@ -1,0 +1,154 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+    background-image: url(background.jpg);
+}
+
+/* Style the container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the section title */
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h1 {
+    color: white;
+    display: block;
+    font-style: italic;
+    
+}
+
+.section-title p {
+    color: #6c757d;
+}
+
+/* Style the info boxes */
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.info-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.info-box h3 {
+    color: #343a40;
+}
+
+.info-box p {
+    color: #6c757d;
+}
+
+/* Style the social links */
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+/* Style the form */
+.php-email-form input,
+.php-email-form textarea,
+.php-email-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.php-email-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.php-email-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the loading, error, and sent messages */
+.my-3 .loading,
+.my-3 .error-message,
+.my-3 .sent-message {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.my-3 .loading {
+    color: white;
+}
+
+.my-3 .error-message {
+    color: #dc3545;
+}
+
+.my-3 .sent-message {
+    color: #28a745;
+}
+.container1 {
+    max-width: 1200px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white; /* Change text color to white */
+}
+
+h2 span {
+    display: block;
+    color: white; /* Change text color to white */
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Change text color to white */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: rgb(67, 66, 149);
+}
+
+
+

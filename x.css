@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Optional: Add a background color for better visibility */
+    background-image: url(background.jpg);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white; /* Optional: Add a background color for better visibility */
+    border-radius: 8px; /* Optional: Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    color: white; /* Set text color to white */
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.image {
+    flex: 1;
+}
+
+img {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 200px; /* Set a maximum width to ensure responsiveness */
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+
+hr {
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+   
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: white;
+}

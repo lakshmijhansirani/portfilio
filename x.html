@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="x.css">
+    <title>Text and Image Section</title>
+
+    <style>
+        /* Reset some default styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f9fa; /* Optional: Add a background color for better visibility */
+            background-image: url(background.jpg);
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Display the list items horizontally */
+        }
+
+        .navbar li {
+            margin-right: 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: blue;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white; /* Optional: Add a background color for better visibility */
+            border-radius: 8px; /* Optional: Add rounded corners to the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+        }
+
+        .text {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+            color: #333; /* Set text color to a darker shade */
+            margin-right: 10px; /* Add some space between text and vertical line */
+            border-right: 1px solid #000; /* Make the vertical line black */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .image {
+            flex: 1;
+            margin-left: 20px;
+            margin-top: 10px; /* Add some space between image and hr */
+        }
+
+        img {
+            width: 80%;
+            max-width: 200px;
+            max-height: 150px; /* Set a maximum height for better consistency */
+            object-fit: cover;
+            border: 1px solid #ddd; /* Add a border for better visibility */
+            border-radius: 8px;
+        }
+
+        hr {
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            background-color: #ddd; /* Set background color for better visibility */
+        }
+
+        /* ... Your existing CSS for responsive styles ... */
+    </style>
+</head>
+<body>
+    <div>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link active" href="MAIN.html">Home</a></li>
+                <li><a class="nav-link" href="aboutport.html">About</a></li>
+                <li><a class="nav-link" href="resume.html">Resume</a></li>
+                <li><a class="nav-link" href="x.html">Projects</a></li>
+                <li><a class="nav-link" href="contactport.html">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+    </div>
+
+    <div class="container">
+        <div class="text">
+            <h2>TOLLYWOOD TALKS</h2>
+            <p>• Used HTML, CSS, and JavaScript elements to build a website with 20-25 pages.</p>
+            <p>• We included a slideshow and images related to Tollywood talks.</p>
+        </div>
+        <div class="image">
+            <img src="tollywood1.jpg" alt="Image Description">
+        </div>
+    </div>
+    <hr/>
+
+    <div class="container">
+        <div class="text">
+            <h2>CHARBOT FOR CUSTOMER SERVICE</h2>
+            <p>• Implemented natural language processing (NLP) capabilities to enhance conversational interactions</p>
+            <p>• For customer service agents, these may include empathy, time management, active listening.</p>
+        </div>
+        <div class="image">
+            <img src="chatbot2.jpeg" alt="Image Description">
+        </div>
+    </div>
+    <hr/>
+
+    <div class="container">
+        <div class="text">
+            <h2>TRIP PLANNER WEB APPLICATION</h2>
+            <p>• Conceptualized and developed a feature-rich trip-planner website using HTML, CSS, and JavaScript.</p>
+            <p>• Integrated SQL for robust relational database management, ensuring efficient data storage and retrieval.</p>
+        </div>
+        <div class="image">
+            <img src="trip.jpg" alt="Image Description">
+        </div>
+    </div>
+</body>
+</html>
+
